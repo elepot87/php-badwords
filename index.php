@@ -9,6 +9,7 @@
 <body>
 <?php
 $sentence = 'Non conosco il linguaggio PHP';
+$newSentence = $_GET['frase'];
 ?>
     <h1>Ciao sono Eleonora</h1>
     <h2>
@@ -17,6 +18,9 @@ $sentence = 'Non conosco il linguaggio PHP';
     <p>Lunghezza stringa:
         <?php echo strlen($sentence);?>
     </p>
+    <h2>
+        La nuova frase è <?php echo $newSentence; ?>
+    </h2>
    
 </body>
 </html>
