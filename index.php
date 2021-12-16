@@ -8,11 +8,16 @@
 </head>
 <body>
 <?php
-$sentence = 'non conosco il linguaggio PHP';
+$sentence = 'Non conosco il linguaggio PHP';
 ?>
-    <h2>Ciao sono Eleonora e <?php echo $sentence;?>
-
+    <h1>Ciao sono Eleonora</h1>
+    <h2>
+        <?php echo $sentence; ?>
     </h2>
+    <p>Lunghezza stringa:
+        <?php echo strlen($sentence);?>
+    </p>
+   
 </body>
 </html>
 
